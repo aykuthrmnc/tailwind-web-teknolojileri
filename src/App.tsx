@@ -1,26 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Loader from "components/Loader";
+import { Suspense } from "react";
+import { useRoutes } from "react-router-dom";
+import routes from "routes";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+  const showRoutes = useRoutes(routes);
+
+  return <Suspense fallback={<Loader />}>{showRoutes}</Suspense>;
+};
 
 export default App;
