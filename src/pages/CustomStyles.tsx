@@ -64,7 +64,7 @@ const CustomStyles = () => {
       </div>
       <div className="grid grid-cols-6 gap-5">
         <div className="col-span-6 lg:col-span-4 flex flex-col gap-5">
-          <h3 className="text-center text-2xl">Yardımcı sınıflar ekleme</h3>
+          <h3 className="text-center text-2xl">Yardımcı Sınıflar Ekleme</h3>
           <p className="text-justify">
             Projenizde kullanmak istediğiniz ve Tailwind'in kullanıma hazır yardımcı sınıfları içermediği bir CSS özelliği olduğunda yararlı
             olabilmektedir.
