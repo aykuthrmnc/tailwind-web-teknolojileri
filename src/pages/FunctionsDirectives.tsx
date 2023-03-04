@@ -11,7 +11,7 @@ const FunctionsDirectives = () => {
             </p>
           </div>
           <div className="col-span-4 col-start-2 lg:col-span-2">
-            <img src="/functionsdirectives/1.png" alt="Custom Styles Örnek Kod 1" />
+            <img src="/functionsdirectives/1.png" alt="@tailwind örneği" />
           </div>
         </div>
         <div className="grid grid-cols-6 gap-5">
@@ -21,7 +21,7 @@ const FunctionsDirectives = () => {
             <p>@layer katmanları sırasıyla base, components, utilities katmanlarıdır.</p>
           </div>
           <div className="col-span-4 col-start-2 lg:col-span-2">
-            <img src="/functionsdirectives/2.png" alt="Custom Styles Örnek Kod 1" />
+            <img src="/functionsdirectives/2.png" alt="@layer örneği" />
           </div>
         </div>
         <div className="grid grid-cols-6 gap-5">
@@ -34,8 +34,8 @@ const FunctionsDirectives = () => {
             </p>
           </div>
           <div className="col-span-full flex flex-wrap justify-center gap-5">
-            <img src="/functionsdirectives/3.png" className="h-96 w-auto object-contain" alt="Custom Styles Örnek Kod 1" />
-            <img src="/functionsdirectives/4.png" className="h-96 w-auto object-contain" alt="Custom Styles Örnek Kod 1" />
+            <img src="/functionsdirectives/3.png" className="h-96 w-auto object-contain" alt="@apply örneği" />
+            <img src="/functionsdirectives/4.png" className="h-96 w-auto object-contain" alt="@apply örneği" />
           </div>
         </div>
       </div>
@@ -49,7 +49,7 @@ const FunctionsDirectives = () => {
             </p>
           </div>
           <div className="col-span-4 col-start-2 lg:col-span-2">
-            <img src="/functionsdirectives/5.png" alt="Custom Styles Örnek Kod 1" />
+            <img src="/functionsdirectives/5.png" alt="theme() örneği" />
           </div>
         </div>
         <div className="grid grid-cols-6 gap-5">
@@ -61,7 +61,7 @@ const FunctionsDirectives = () => {
             </p>
           </div>
           <div className="col-span-4 col-start-2 lg:col-span-2">
-            <img src="/functionsdirectives/6.png" alt="Custom Styles Örnek Kod 1" />
+            <img src="/functionsdirectives/6.png" alt="@screen örneği" />
           </div>
         </div>
       </div>

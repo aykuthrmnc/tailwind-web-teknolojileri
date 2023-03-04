@@ -14,7 +14,7 @@ const CustomStyles = () => {
           </p>
         </div>
         <div className="col-start-2 col-span-4 lg:col-span-2">
-          <img src="/customstyles/1.png" alt="Custom Styles Örnek Kod 1" />
+          <img src="/customstyles/1.png" alt="Tema Özelleştirme" />
         </div>
       </div>
       <div className="grid grid-cols-6 gap-5">
@@ -30,7 +30,7 @@ const CustomStyles = () => {
           <div className="bg-[#3E54AC] p-[15px] text-[20px] text-[rgb(236,242,255)] [border-width:5px] [border-color:#bface2] before:content-['Tailwind_'] hover:bg-[#655dbb]">
             CSS
           </div>
-          <img src="/customstyles/2.png" alt="Custom Styles Örnek Kod 2" />
+          <img src="/customstyles/2.png" alt="Ekstra Değerler Kullanma" />
         </div>
       </div>
       <div className="grid grid-cols-6 gap-5">
@@ -42,7 +42,7 @@ const CustomStyles = () => {
           </p>
         </div>
         <div className="col-start-2 col-span-4 lg:col-span-2">
-          <img src="/customstyles/3.png" alt="Custom Styles Örnek Kod 3" />
+          <img src="/customstyles/3.png" alt="Temel Stiller Ekleme" />
         </div>
       </div>
       <div className="grid grid-cols-6 gap-5">
@@ -59,7 +59,7 @@ const CustomStyles = () => {
           </p>
         </div>
         <div className="col-span-6 flex flex-col gap-3">
-          <img src="/customstyles/4.png" alt="Custom Styles Örnek Kod 4" />
+          <img src="/customstyles/4.png" alt="Bileşen Sınıfları Ekleme" />
         </div>
       </div>
       <div className="grid grid-cols-6 gap-5">
@@ -71,18 +71,18 @@ const CustomStyles = () => {
           </p>
         </div>
         <div className="col-start-2 col-span-4 lg:col-span-2 flex flex-col gap-3">
-          <img src="/customstyles/5.png" alt="Custom Styles Örnek" />
+          <img src="/customstyles/5.png" alt="Yardımcı Sınıflar Ekleme" />
         </div>
         <div className="col-span-6 grid lg:grid-cols-2 gap-3">
           <div className="card text-center bg-slate-200 dark:bg-gray-800 dark:text-white">
             <div className="card-body">
-              <img src="/customstyles/6.jpg" className="filter-none" alt="Custom Styles Örnek" />
+              <img src="/customstyles/6.jpg" className="filter-none" alt="Gray Scale (0%) örneği" />
               <div>Gray Scale (0%)</div>
             </div>
           </div>
           <div className="card text-center bg-slate-200 dark:bg-gray-800 dark:text-white">
             <div className="card-body">
-              <img src="/customstyles/6.jpg" className="filter-grayscale" alt="Custom Styles Örnek" />
+              <img src="/customstyles/6.jpg" className="filter-grayscale" alt="Gray Scale (100%) örneği" />
               <div>Gray Scale (100%)</div>
             </div>
           </div>

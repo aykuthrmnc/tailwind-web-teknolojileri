@@ -5,7 +5,7 @@ const UtilityFirst = () => {
     <div className="flex flex-col gap-24">
       <div className="grid grid-cols-6 gap-5">
         <div className="col-span-6 md:col-span-3 flex flex-col gap-5">
-          <h3 className="text-center text-2xl">CSS Class İle Tasarım</h3>
+          <h3 className="text-center text-2xl">CSS İle Tasarım</h3>
           <p className="text-justify">Açıklamalar...........</p>
         </div>
         <div className="col-span-6 md:col-span-3 mt-auto">

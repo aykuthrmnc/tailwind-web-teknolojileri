@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 const Sidebar = () => {
   const [sidebar, setSidebar] = useState(false);
   const toggle = () => setSidebar(!sidebar);
-  
+
   return (
     <div className={`flex transition-all lg:w-64 duration-1000${sidebar ? " lg:!w-0" : ""}`}>
       <aside className={`sidebar${sidebar ? " lg:-translate-x-60" : ""}`}>
@@ -19,28 +19,28 @@ const Sidebar = () => {
         </button>
         <nav className="space-y-1">
           <NavLink to="/" className="nav-link">
-            Ana Sayfa
+            Tailwind Nedir?
           </NavLink>
           <NavLink to="/utility-first" className="nav-link">
-            Utility-First Fundamentals
+            Temel Karşılaştırma
           </NavLink>
           <NavLink to="/hover-focus" className="nav-link">
-            Hover, Focus, and Other States
+            Hover, Focus ve Diğer Durumlar
           </NavLink>
           <NavLink to="/responsive-design" className="nav-link">
-            Responsive Design
+            Responsive Tasarım
           </NavLink>
           <NavLink to="/dark-mode" className="nav-link">
-            Dark Mode
+            Koyu Mod
           </NavLink>
           <NavLink to="/reusing-styles" className="nav-link">
-            Reusing Styles
+            Yeniden Kullanılabilir Stiller
           </NavLink>
           <NavLink to="/custom-styles" className="nav-link">
-            Adding Custom Styles
+            Özelleştirmeler
           </NavLink>
           <NavLink to="/functions-directives" className="nav-link">
-            Functions & Directives
+            Fonksitonlar ve Direktifler
           </NavLink>
           <NavLink to="/hazirlayanlar" className="nav-link">
             Hazırlayanlar
