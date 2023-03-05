@@ -1,6 +1,7 @@
 .card {
   display: flex;
   align-items: center;
+  flex-direction: column;
   max-width: 100%;
   margin: 0 auto;
   padding: 1.5rem;
@@ -53,4 +54,10 @@
   outline: 2px solid transparent;
   outline-offset: 2px;
   box-shadow: 0 0 0 3px rgb(125 211 252), 0 0 0 3px rgb(125 211 252), 0 0 #0000, 0 0 #0000;
+}
+
+@media (min-width: 1280px) {
+  .card {
+    flex-direction: row;
+  }
 }

@@ -1,6 +1,6 @@
 const ReusingStyles = () => {
   return (
-    <div>ReusingStyles</div>
+    <div></div>
   )
 }
 
