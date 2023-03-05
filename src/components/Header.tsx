@@ -1,21 +1,30 @@
 import useTheme from "hooks/useTheme";
 import { FaMoon, FaSun } from "react-icons/fa";
-import { VscMenu } from "react-icons/vsc";
 import { Link } from "react-router-dom";
+import "assets/css/hamburger.css";
+import { useState } from "react";
 
 const Header = () => {
   const { theme, changeTheme } = useTheme();
+  const [isActive, setIsActive] = useState(false);
 
   const toggleSidebar = () => {
     document.querySelector(".sidebar")?.classList.toggle("active");
+    setIsActive(!isActive);
   };
 
   return (
     <div className="flex h-15 w-full flex-shrink-0 items-center justify-between border-b border-gray-100 px-2 dark:border-gray-700 lg:px-3">
-      <button onClick={toggleSidebar} className="block dark:text-white lg:hidden">
-        <VscMenu />
+      <button onClick={toggleSidebar} className="block dark:text-white lg:hidden" type="button">
+        <div className={`hamburger hamburger--spring ${isActive ? " is-active" : ""}`}>
+          <span className="hamburger-box">
+            <span className="hamburger-inner"></span>
+          </span>
+        </div>
       </button>
-      <Link to="/" className="dark:text-white hidden lg:block text-2xl">Tailwind</Link>
+      <Link to="/" className="hidden text-2xl dark:text-white lg:block">
+        Tailwind
+      </Link>
       <div className="flex gap-2">
         <button
           onClick={changeTheme}

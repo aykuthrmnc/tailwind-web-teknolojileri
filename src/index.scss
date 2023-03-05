@@ -46,7 +46,7 @@ body {
   }
 
   .sidebar {
-    @apply invisible absolute inset-0 top-15 z-50 flex w-full flex-shrink-0 scale-90 flex-col divide-y divide-gray-100 overflow-y-auto border-r border-gray-100 bg-white p-2 pr-5 opacity-0 transition-[opacity,transform] duration-1000 dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-800 lg:visible lg:relative lg:top-0 lg:flex lg:w-64 lg:scale-100 lg:overflow-visible lg:opacity-100;
+    @apply invisible absolute inset-0 top-15 z-50 flex w-full flex-shrink-0 scale-90 flex-col divide-y divide-gray-100 overflow-y-auto border-r border-gray-100 bg-white p-2 opacity-0 transition-[opacity,transform] duration-1000 dark:divide-gray-800 dark:border-gray-800 dark:bg-gray-800 lg:visible lg:relative lg:top-0 lg:flex lg:w-64 lg:scale-100 lg:overflow-visible lg:pr-5 lg:opacity-100;
   }
 
   .sidebar.active {

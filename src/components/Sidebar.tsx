@@ -40,7 +40,7 @@ const Sidebar = () => {
             Özelleştirmeler
           </NavLink>
           <NavLink to="/functions-directives" className="nav-link">
-            Fonksitonlar ve Direktifler
+            Fonksiyonlar ve Direktifler
           </NavLink>
           <NavLink to="/hazirlayanlar" className="nav-link">
             Hazırlayanlar
