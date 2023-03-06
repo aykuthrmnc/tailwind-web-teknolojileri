@@ -33,9 +33,6 @@ const Sidebar = () => {
           <NavLink to="/dark-mode" className="nav-link">
             Koyu Mod
           </NavLink>
-          <NavLink to="/reusing-styles" className="nav-link">
-            Yeniden Kullanılabilir Stiller
-          </NavLink>
           <NavLink to="/custom-styles" className="nav-link">
             Özelleştirmeler
           </NavLink>

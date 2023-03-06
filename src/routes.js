@@ -9,7 +9,6 @@ const DarkMode = lazy(() => import("pages/DarkMode"));
 const FunctionsDirectives = lazy(() => import("pages/FunctionsDirectives"));
 const HoverFocus = lazy(() => import("pages/HoverFocus"));
 const ResponsiveDesign = lazy(() => import("pages/ResponsiveDesign"));
-const ReusingStyles = lazy(() => import("pages/ReusingStyles"));
 
 const routes = [
   {
@@ -36,10 +35,6 @@ const routes = [
       {
         path: "dark-mode",
         element: <DarkMode />,
-      },
-      {
-        path: "reusing-styles",
-        element: <ReusingStyles />,
       },
       {
         path: "custom-styles",
